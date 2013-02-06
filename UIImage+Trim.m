@@ -65,7 +65,7 @@
 	}
 	
     // Bottom
-	for (int i = rows; i >= 0; i--)
+	for (int i = rows - 1; i >= 0; i--)
     {
 		if (rowSum[i] > 0)
         {
@@ -85,7 +85,7 @@
 	}
 	
     // Right
-	for (int i = cols; i >= 0; i--)
+	for (int i = cols - 1; i >= 0; i--)
     {
 		if (colSum[i] > 0)
         {
@@ -98,10 +98,11 @@
 	free(colSum);
 	free(rowSum);
 	
+    UIImage *img = self;
+    
 	if (crop.top == 0 && crop.bottom == 0 && crop.left == 0 && crop.right == 0)
     {
 		// No cropping needed
-		return self;
 	}
 	else
     {
@@ -115,8 +116,14 @@
 		CGImageRef newImage = CGImageCreateWithImageInRect(cgImage, rect);
 		
 		// Convert back to UIImage
-		return [UIImage imageWithCGImage:newImage];
+        img = [UIImage imageWithCGImage:newImage];
+        
+        CGImageRelease(newImage);
 	}
+    
+    CGContextRelease(contextRef);
+    
+    return img;
 }
 
 @end
