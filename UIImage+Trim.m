@@ -11,7 +11,11 @@
 
 @implementation UIImage (Trim)
 
-- (UIImage *) imageByTrimmingTransparentPixels
+- (UIImage *) imageByTrimmingTransparentPixels {
+    return [self imageByTrimmingTransparentPixelsWithMargin:UIEdgeInsetsZero];
+}
+
+- (UIImage *) imageByTrimmingTransparentPixelsWithMargin:(UIEdgeInsets)insets
 {
 	int rows = self.size.height * self.scale;
 	int cols = self.size.width * self.scale;
@@ -106,6 +110,11 @@
 	}
 	else
     {
+        crop.top = MAX(crop.top-insets.top, 0);
+        crop.bottom = MAX(crop.bottom-insets.bottom, 0);
+        crop.left = MAX(crop.left-insets.left, 0);
+        crop.right = MAX(crop.right-insets.right, 0);
+
 		// Calculate new crop bounds
 		rect.origin.x += crop.left;
 		rect.origin.y += crop.top;
