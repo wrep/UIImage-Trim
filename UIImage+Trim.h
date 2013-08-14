@@ -12,5 +12,6 @@
 @interface UIImage (Trim)
 
 - (UIImage*)imageByTrimmingTransparentPixels;
+- (UIImage *) imageByTrimmingTransparentPixelsWithMargin:(UIEdgeInsets)insets;
 
 @end
