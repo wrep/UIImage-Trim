@@ -13,8 +13,8 @@
 
 - (UIImage *) imageByTrimmingTransparentPixels
 {
-	int rows = self.size.height;
-	int cols = self.size.width;
+	int rows = self.size.height * self.scale;
+	int cols = self.size.width * self.scale;
 	int bytesPerRow = cols*sizeof(uint8_t);
 	
 	if ( rows < 2 || cols < 2 )
@@ -116,7 +116,7 @@
 		CGImageRef newImage = CGImageCreateWithImageInRect(cgImage, rect);
 		
 		// Convert back to UIImage
-        img = [UIImage imageWithCGImage:newImage];
+        img = [UIImage imageWithCGImage:newImage scale:self.scale orientation:self.imageOrientation];
         
         CGImageRelease(newImage);
 	}
