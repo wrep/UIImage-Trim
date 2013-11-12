@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B06371A177B30C400B55AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B063719177B30C400B55AC5 /* UIKit.framework */; };
+		6B06371C177B30C400B55AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B06371B177B30C400B55AC5 /* Foundation.framework */; };
+		6B06371E177B30C400B55AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B06371D177B30C400B55AC5 /* CoreGraphics.framework */; };
+		6B063724177B30C400B55AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B063722177B30C400B55AC5 /* InfoPlist.strings */; };
+		6B063726177B30C400B55AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B063725177B30C400B55AC5 /* main.m */; };
+		6B06372A177B30C400B55AC5 /* ELCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B063729177B30C400B55AC5 /* ELCAppDelegate.m */; };
+		6B06372C177B30C400B55AC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06372B177B30C400B55AC5 /* Default.png */; };
+		6B06372E177B30C400B55AC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06372D177B30C400B55AC5 /* Default@2x.png */; };
+		6B063730177B30C400B55AC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06372F177B30C400B55AC5 /* Default-568h@2x.png */; };
+		6B063733177B30C400B55AC5 /* ELCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B063732177B30C400B55AC5 /* ELCViewController.m */; };
+		6B063736177B30C400B55AC5 /* ELCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B063734177B30C400B55AC5 /* ELCViewController.xib */; };
+		6B06373E177B30D900B55AC5 /* UIImage+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06373D177B30D900B55AC5 /* UIImage+Trim.m */; };
+		6B063741177B33B900B55AC5 /* demo_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06373F177B33B900B55AC5 /* demo_image.png */; };
+		6B063742177B33B900B55AC5 /* demo_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B063740177B33B900B55AC5 /* demo_image@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B063716177B30C400B55AC5 /* Transparency Trim Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transparency Trim Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B063719177B30C400B55AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B06371B177B30C400B55AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B06371D177B30C400B55AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B063721177B30C400B55AC5 /* Transparency Trim Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Transparency Trim Demo-Info.plist"; sourceTree = "<group>"; };
+		6B063723177B30C400B55AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B063725177B30C400B55AC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B063727177B30C400B55AC5 /* Transparency Trim Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Transparency Trim Demo-Prefix.pch"; sourceTree = "<group>"; };
+		6B063728177B30C400B55AC5 /* ELCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELCAppDelegate.h; sourceTree = "<group>"; };
+		6B063729177B30C400B55AC5 /* ELCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELCAppDelegate.m; sourceTree = "<group>"; };
+		6B06372B177B30C400B55AC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B06372D177B30C400B55AC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6B06372F177B30C400B55AC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B063731177B30C400B55AC5 /* ELCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELCViewController.h; sourceTree = "<group>"; };
+		6B063732177B30C400B55AC5 /* ELCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELCViewController.m; sourceTree = "<group>"; };
+		6B063735177B30C400B55AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ELCViewController.xib; sourceTree = "<group>"; };
+		6B06373C177B30D900B55AC5 /* UIImage+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Trim.h"; sourceTree = "<group>"; };
+		6B06373D177B30D900B55AC5 /* UIImage+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Trim.m"; sourceTree = "<group>"; };
+		6B06373F177B33B900B55AC5 /* demo_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_image.png; sourceTree = "<group>"; };
+		6B063740177B33B900B55AC5 /* demo_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_image@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B063713177B30C400B55AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B06371A177B30C400B55AC5 /* UIKit.framework in Frameworks */,
+				6B06371C177B30C400B55AC5 /* Foundation.framework in Frameworks */,
+				6B06371E177B30C400B55AC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B06370D177B30C400B55AC5 = {
+			isa = PBXGroup;
+			children = (
+				6B06371F177B30C400B55AC5 /* Transparency Trim Demo */,
+				6B063718177B30C400B55AC5 /* Frameworks */,
+				6B063717177B30C400B55AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B063717177B30C400B55AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B063716177B30C400B55AC5 /* Transparency Trim Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B063718177B30C400B55AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B063719177B30C400B55AC5 /* UIKit.framework */,
+				6B06371B177B30C400B55AC5 /* Foundation.framework */,
+				6B06371D177B30C400B55AC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B06371F177B30C400B55AC5 /* Transparency Trim Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6B06373C177B30D900B55AC5 /* UIImage+Trim.h */,
+				6B06373D177B30D900B55AC5 /* UIImage+Trim.m */,
+				6B063728177B30C400B55AC5 /* ELCAppDelegate.h */,
+				6B063729177B30C400B55AC5 /* ELCAppDelegate.m */,
+				6B063731177B30C400B55AC5 /* ELCViewController.h */,
+				6B063732177B30C400B55AC5 /* ELCViewController.m */,
+				6B063734177B30C400B55AC5 /* ELCViewController.xib */,
+				6B063720177B30C400B55AC5 /* Supporting Files */,
+			);
+			path = "Transparency Trim Demo";
+			sourceTree = "<group>";
+		};
+		6B063720177B30C400B55AC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B06373F177B33B900B55AC5 /* demo_image.png */,
+				6B063740177B33B900B55AC5 /* demo_image@2x.png */,
+				6B063721177B30C400B55AC5 /* Transparency Trim Demo-Info.plist */,
+				6B063722177B30C400B55AC5 /* InfoPlist.strings */,
+				6B063725177B30C400B55AC5 /* main.m */,
+				6B063727177B30C400B55AC5 /* Transparency Trim Demo-Prefix.pch */,
+				6B06372B177B30C400B55AC5 /* Default.png */,
+				6B06372D177B30C400B55AC5 /* Default@2x.png */,
+				6B06372F177B30C400B55AC5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B063715177B30C400B55AC5 /* Transparency Trim Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B063739177B30C400B55AC5 /* Build configuration list for PBXNativeTarget "Transparency Trim Demo" */;
+			buildPhases = (
+				6B063712177B30C400B55AC5 /* Sources */,
+				6B063713177B30C400B55AC5 /* Frameworks */,
+				6B063714177B30C400B55AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transparency Trim Demo";
+			productName = "Transparency Trim Demo";
+			productReference = 6B063716177B30C400B55AC5 /* Transparency Trim Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B06370E177B30C400B55AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ELC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Stroud";
+			};
+			buildConfigurationList = 6B063711177B30C400B55AC5 /* Build configuration list for PBXProject "Transparency Trim Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B06370D177B30C400B55AC5;
+			productRefGroup = 6B063717177B30C400B55AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B063715177B30C400B55AC5 /* Transparency Trim Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B063714177B30C400B55AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B063724177B30C400B55AC5 /* InfoPlist.strings in Resources */,
+				6B06372C177B30C400B55AC5 /* Default.png in Resources */,
+				6B06372E177B30C400B55AC5 /* Default@2x.png in Resources */,
+				6B063730177B30C400B55AC5 /* Default-568h@2x.png in Resources */,
+				6B063736177B30C400B55AC5 /* ELCViewController.xib in Resources */,
+				6B063741177B33B900B55AC5 /* demo_image.png in Resources */,
+				6B063742177B33B900B55AC5 /* demo_image@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B063712177B30C400B55AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B063726177B30C400B55AC5 /* main.m in Sources */,
+				6B06372A177B30C400B55AC5 /* ELCAppDelegate.m in Sources */,
+				6B063733177B30C400B55AC5 /* ELCViewController.m in Sources */,
+				6B06373E177B30D900B55AC5 /* UIImage+Trim.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B063722177B30C400B55AC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B063723177B30C400B55AC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B063734177B30C400B55AC5 /* ELCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B063735177B30C400B55AC5 /* en */,
+			);
+			name = ELCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B063737177B30C400B55AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B063738177B30C400B55AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B06373A177B30C400B55AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Transparency Trim Demo/Transparency Trim Demo-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Transparency Trim Demo/Transparency Trim Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B06373B177B30C400B55AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Transparency Trim Demo/Transparency Trim Demo-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Transparency Trim Demo/Transparency Trim Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B063711177B30C400B55AC5 /* Build configuration list for PBXProject "Transparency Trim Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B063737177B30C400B55AC5 /* Debug */,
+				6B063738177B30C400B55AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B063739177B30C400B55AC5 /* Build configuration list for PBXNativeTarget "Transparency Trim Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B06373A177B30C400B55AC5 /* Debug */,
+				6B06373B177B30C400B55AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B06370E177B30C400B55AC5 /* Project object */;
+}
