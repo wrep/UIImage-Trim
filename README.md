@@ -20,3 +20,10 @@ Additionally, if you merely desire to know the `UIEdgeInsets` of the transparenc
 `[yourImage transparencyInsetsRequiringFullOpacity:YES];`
 
 This call works based on the same principles as the "advanced" trim method, with the boolean dictating whether non-opaque pixels should be considered transparent.
+
+
+This fork adds support for trimming white area around image with given tolerance
+
+`[yourImage imageByTrimmingWhitePixelsWithOpacity:VALUE];`
+
+where 0 - cut only white, 255 - remove everything

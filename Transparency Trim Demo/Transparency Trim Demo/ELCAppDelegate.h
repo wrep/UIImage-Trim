@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ELCViewController;
+@class UIViewController;
 
 @interface ELCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ELCViewController *viewController;
+@property (strong, nonatomic) UIViewController *viewController;
 
 @end

@@ -14,5 +14,6 @@
 - (UIEdgeInsets)transparencyInsetsRequiringFullOpacity:(BOOL)fullyOpaque;
 - (UIImage *)imageByTrimmingTransparentPixels;
 - (UIImage *)imageByTrimmingTransparentPixelsRequiringFullOpacity:(BOOL)fullyOpaque;
+- (UIImage *)imageByTrimmingWhitePixelsWithOpacity:(UInt8)tolerance;
 
 @end
