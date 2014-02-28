@@ -21,6 +21,10 @@
 		6B06373E177B30D900B55AC5 /* UIImage+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B06373D177B30D900B55AC5 /* UIImage+Trim.m */; };
 		6B063741177B33B900B55AC5 /* demo_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06373F177B33B900B55AC5 /* demo_image.png */; };
 		6B063742177B33B900B55AC5 /* demo_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B063740177B33B900B55AC5 /* demo_image@2x.png */; };
+		9F31271D18C1239E008CD497 /* demo_white_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F31271B18C1239E008CD497 /* demo_white_image.png */; };
+		9F31271E18C1239E008CD497 /* demo_white_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F31271C18C1239E008CD497 /* demo_white_image@2x.png */; };
+		9F31272118C123D5008CD497 /* ELCWhiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F31272018C123D5008CD497 /* ELCWhiteViewController.m */; };
+		9F31272418C123DE008CD497 /* ELCWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F31272218C123DE008CD497 /* ELCWhiteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,11 @@
 		6B06373D177B30D900B55AC5 /* UIImage+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Trim.m"; sourceTree = "<group>"; };
 		6B06373F177B33B900B55AC5 /* demo_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_image.png; sourceTree = "<group>"; };
 		6B063740177B33B900B55AC5 /* demo_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_image@2x.png"; sourceTree = "<group>"; };
+		9F31271B18C1239E008CD497 /* demo_white_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_white_image.png; sourceTree = "<group>"; };
+		9F31271C18C1239E008CD497 /* demo_white_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_white_image@2x.png"; sourceTree = "<group>"; };
+		9F31271F18C123D5008CD497 /* ELCWhiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCWhiteViewController.h; sourceTree = "<group>"; };
+		9F31272018C123D5008CD497 /* ELCWhiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCWhiteViewController.m; sourceTree = "<group>"; };
+		9F31272318C123DE008CD497 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ELCWhiteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,9 @@
 				6B063731177B30C400B55AC5 /* ELCViewController.h */,
 				6B063732177B30C400B55AC5 /* ELCViewController.m */,
 				6B063734177B30C400B55AC5 /* ELCViewController.xib */,
+				9F31271F18C123D5008CD497 /* ELCWhiteViewController.h */,
+				9F31272018C123D5008CD497 /* ELCWhiteViewController.m */,
+				9F31272218C123DE008CD497 /* ELCWhiteViewController.xib */,
 				6B063720177B30C400B55AC5 /* Supporting Files */,
 			);
 			path = "Transparency Trim Demo";
@@ -107,6 +119,8 @@
 			children = (
 				6B06373F177B33B900B55AC5 /* demo_image.png */,
 				6B063740177B33B900B55AC5 /* demo_image@2x.png */,
+				9F31271B18C1239E008CD497 /* demo_white_image.png */,
+				9F31271C18C1239E008CD497 /* demo_white_image@2x.png */,
 				6B063721177B30C400B55AC5 /* Transparency Trim Demo-Info.plist */,
 				6B063722177B30C400B55AC5 /* InfoPlist.strings */,
 				6B063725177B30C400B55AC5 /* main.m */,
@@ -171,11 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B063724177B30C400B55AC5 /* InfoPlist.strings in Resources */,
+				9F31271E18C1239E008CD497 /* demo_white_image@2x.png in Resources */,
 				6B06372C177B30C400B55AC5 /* Default.png in Resources */,
 				6B06372E177B30C400B55AC5 /* Default@2x.png in Resources */,
 				6B063730177B30C400B55AC5 /* Default-568h@2x.png in Resources */,
+				9F31272418C123DE008CD497 /* ELCWhiteViewController.xib in Resources */,
 				6B063736177B30C400B55AC5 /* ELCViewController.xib in Resources */,
 				6B063741177B33B900B55AC5 /* demo_image.png in Resources */,
+				9F31271D18C1239E008CD497 /* demo_white_image.png in Resources */,
 				6B063742177B33B900B55AC5 /* demo_image@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +207,7 @@
 				6B063726177B30C400B55AC5 /* main.m in Sources */,
 				6B06372A177B30C400B55AC5 /* ELCAppDelegate.m in Sources */,
 				6B063733177B30C400B55AC5 /* ELCViewController.m in Sources */,
+				9F31272118C123D5008CD497 /* ELCWhiteViewController.m in Sources */,
 				6B06373E177B30D900B55AC5 /* UIImage+Trim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +229,14 @@
 				6B063735177B30C400B55AC5 /* en */,
 			);
 			name = ELCViewController.xib;
+			sourceTree = "<group>";
+		};
+		9F31272218C123DE008CD497 /* ELCWhiteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F31272318C123DE008CD497 /* en */,
+			);
+			name = ELCWhiteViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,6 +371,7 @@
 				6B06373B177B30C400B55AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

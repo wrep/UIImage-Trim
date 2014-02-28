@@ -8,7 +8,7 @@
 
 #import "ELCAppDelegate.h"
 
-#import "ELCViewController.h"
+#import "ELCWhiteViewController.h"
 
 @implementation ELCAppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-	self.viewController = [[ELCViewController alloc] initWithNibName:@"ELCViewController" bundle:nil];
+	self.viewController = [[ELCWhiteViewController alloc] initWithNibName:@"ELCWhiteViewController" bundle:nil];
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
 	
